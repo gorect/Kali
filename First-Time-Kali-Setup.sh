@@ -75,13 +75,13 @@ read -p "What is your OS bit Type? (32 or 64): " OSbitType
    then
       echo "You have entered 64 bit"
       cd Lists
-         fileOPENSTEGO64='openStego64.sh'
+         fileOPENSTEGO64='openStego64bit.sh'
          if [ ! -f "$fileOPENSTEGO64" ]
          then
             echo "$0: File '${fileOPENSTEGO64}' not found."
          else
             echo "File $fileOPENSTEGO64 exists."
-            ./openStego64bit.sh
+            ./$fileOPENSTEGO64
          fi
          cd ..
       break
@@ -89,13 +89,13 @@ read -p "What is your OS bit Type? (32 or 64): " OSbitType
    then
       echo "You have entered 32 bit"
       cd Lists
-         fileOPENSTEGO32='openStego32.sh'
+         fileOPENSTEGO32='openStego32bit.sh'
          if [ ! -f "$fileOPENSTEGO32" ]
          then
             echo "$0: File '${fileOPENSTEGO32}' not found."
          else
             echo "File $fileOPENSTEGO32 exists."
-            ./openStego32bit.sh
+            ./$fileOPENSTEGO32
          fi
          cd ..
       break
