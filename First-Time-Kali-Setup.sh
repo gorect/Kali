@@ -81,7 +81,7 @@ read -p "What is your OS bit Type? (32 or 64): " OSbitType
             echo "$0: File '${fileOPENSTEGO64}' not found."
          else
             echo "File $fileOPENSTEGO64 exists."
-            ./$fileOPENSTEGO64
+            ./openStego64bit.sh
          fi
          cd ..
       break
@@ -95,7 +95,7 @@ read -p "What is your OS bit Type? (32 or 64): " OSbitType
             echo "$0: File '${fileOPENSTEGO32}' not found."
          else
             echo "File $fileOPENSTEGO32 exists."
-            ./$fileOPENSTEGO32
+            ./openStego32bit.sh
          fi
          cd ..
       break
