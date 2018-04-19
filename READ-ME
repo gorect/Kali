@@ -6,7 +6,8 @@ This script does the following:
 	* Fixes the issue armitage has by setting the system to run msfdb init after every reboot
 	* Installs openstego based on OS bit version (32 vs 64)
 
-
+To run the script, drop First-Time-Kali-Script.sh, READ-ME and the Lists (DIR) into whichever directory you wish 
+and then run the script with ./First-Time-Kali-Script.sh	*Note you may need to make them executable*
 
 Last Updated on: 4/19/2018
 Created by Cameron Gore
