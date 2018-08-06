@@ -1,9 +1,9 @@
 #!/bin/bash
-echo "sudo apt update"
-sudo apt update
-echo "sudo apt upgrade"
-sudo apt upgrade -y
-echo "sudo apt install"
-sudo apt install -y
-echo "sudo apt autoremove"
-sudo apt autoremove -y
+echo "sudo apt-get update"
+sudo apt-get update
+echo "sudo apt-get upgrade"
+sudo apt-get upgrade -y
+echo "sudo apt-get install"
+sudo apt-get install -y
+echo "sudo apt-get autoremove"
+sudo apt-get autoremove -y
