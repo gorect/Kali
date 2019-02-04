@@ -50,6 +50,17 @@ else
 fi
 cd ..
 ####################################
+cd Lists
+fileWIRESHARK='wireshark-non-su.sh'
+if [ ! -f "$fileWIRESHARK" ] 
+then
+   echo "$0: File '${fileWIRESHARK}' not found."
+else
+   echo "File $fileWIRESHARK exists."
+   ./$fileWIRESHARK
+fi
+cd ..
+####################################
 
 #OPENSTEGO Checker
 
