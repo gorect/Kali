@@ -130,5 +130,3 @@ read -p "What is your OS bit Type? (32 or 64): " OSbitType
    fi
 done
 ###################################
-cd /etc/ssh/
-dpkg-reconfigure openssh-server
