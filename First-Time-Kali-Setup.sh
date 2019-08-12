@@ -53,6 +53,17 @@ sudo apt-get update -y
 cd ..
 ####################################
 cd Lists
+fileINSTALLGIT='installGit.sh'
+if [ ! -f "$fileINSTALLGIT" ] 
+then
+   echo "$0: File '${fileINSTALLGIT}' not found."
+else
+   echo "File $fileINSTALLGIT exists."
+   ./$fileINSTALLGIT
+fi
+cd ..
+####################################
+cd Lists
 fileWIRESHARK='wireshark-non-su.sh'
 if [ ! -f "$fileWIRESHARK" ] 
 then
@@ -119,3 +130,5 @@ read -p "What is your OS bit Type? (32 or 64): " OSbitType
    fi
 done
 ###################################
+cd /etc/ssh/
+dpkg-reconfigure openssh-server
