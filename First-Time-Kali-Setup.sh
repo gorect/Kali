@@ -5,7 +5,7 @@ PWD=$(pwd)	#saves current working DIR to variable
 #echo $PWD
 ####################################
 echo "apt update"
-sudo apt update
+sudo apt-get update -y
 ####################################
 cd Lists
 fileKEY='gpgKeyFixer.sh'
@@ -48,6 +48,8 @@ else
    echo "File $fileARMITAGE exists."
    ./$fileARMITAGE
 fi
+echo "apt update"
+sudo apt-get update -y
 cd ..
 ####################################
 cd Lists
@@ -59,6 +61,8 @@ else
    echo "File $fileWIRESHARK exists."
    ./$fileWIRESHARK
 fi
+echo "apt update"
+sudo apt-get update -y
 cd ..
 ####################################
 
