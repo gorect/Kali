@@ -1,0 +1,4 @@
+This script is for versions prior to Kali Linux 2020.2
+In this version the /etc/apt/sources.list file is correct and you should be able to update the system properly with your regular apt commands.
+
+CtG
