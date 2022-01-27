@@ -1,3 +1,0 @@
-deb https://http.kali.org/kali kali-rolling main non-free contrib
-
-deb-src https://http.kali.org/kali kali-rolling main non-free contrib

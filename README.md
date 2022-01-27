@@ -4,8 +4,6 @@ A Bash Script that helps set up Kali after installation
 This Script was created to save me time when setting up a Kali Box for the first time.
 This script does the following:
 	* apt update
-	* Fixes the gpg key error
-	* Fixes the rolling repo update error
 	* Fixes the issue armitage has by setting the system to run msfdb init after every reboot
 	* Installs openstego based on OS bit version (32 vs 64)	*If Else*
 
