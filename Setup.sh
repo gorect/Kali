@@ -8,27 +8,6 @@ echo "apt update"
 sudo apt-get update -y
 ####################################
 cd Lists
-fileKEY='gpgKeyFixer.sh'
-if [ ! -f "$fileKEY" ] 
-then
-   echo "$0: File '${fileKEY}' not found."
-else
-   echo "File $fileKEY exists."
-   ./$fileKEY
-fi
-####################################
-cd Lists
-fileROLLING='kaliRollingRepoFix.sh'
-if [ ! -f "$fileROLLING" ] 
-then
-   echo "$0: File '${fileROLLING}' not found."
-else
-   echo "File $fileROLLING exists."
-   ./$fileROLLING
-fi
-cd ..
-####################################
-cd Lists
 fileUPGRADE='upgrade.sh'
 if [ ! -f "$fileUPGRADE" ]
 then
